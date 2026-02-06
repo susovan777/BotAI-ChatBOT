@@ -6,19 +6,19 @@ export default function InitialChat({ generateResponse }) {
 
     const initialData = [
         {
-            heading: 'Hi, what is the weather',
+            heading: "Hello",
+            subtext: "Hello! How can I assist you today?"
+        },
+        {
+            heading: "My order has not arrived yet.",
             subtext: 'Get immediate AI generated response'
         },
         {
-            heading: 'Hi, what is my location',
+            heading: "How do I cancel my order?",
             subtext: 'Get immediate AI generated response'
         },
         {
-            heading: 'Hi, what is the temperature',
-            subtext: 'Get immediate AI generated response'
-        },
-        {
-            heading: 'Hi, how are you',
+            heading: "How can I update my email address?",
             subtext: 'Get immediate AI generated response'
         },
     ]
@@ -32,7 +32,7 @@ export default function InitialChat({ generateResponse }) {
                 my={5}
             >
                 <Typography variant='h2'>
-                    How Can I Help You Today?
+                    Hi, Please tell me your query!
                 </Typography>
                 <Box
                     component={'img'}

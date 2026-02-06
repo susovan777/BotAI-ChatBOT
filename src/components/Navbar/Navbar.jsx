@@ -38,7 +38,7 @@ export default function Navbar() {
                         variant='h1'
                         component={'h1'}
                     >
-                        Bot AI
+                        Customer Support AI
                     </Typography>
                 </Link>
             </Stack>

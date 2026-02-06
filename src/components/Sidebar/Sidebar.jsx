@@ -67,7 +67,7 @@ export default function Sidebar({ setChat, closeMenu }) {
                             fontSize={{xs:16, md:20}}
                             color={'text.primary'}
                         >
-                            New Chat
+                            New Query?
                         </Typography>
                     </Stack>
 

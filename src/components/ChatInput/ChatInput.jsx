@@ -40,7 +40,7 @@ export default function ChatInput({ generateResponse, setScroll, chat, clearChat
                     spacing={{ xs: .5, md: 2 }}
                 >
                     <TextField
-                        placeholder='Message Bot AI...'
+                        placeholder='Please tell me about your query!'
                         sx={{
                             flex: 1,
                             bgcolor: 'primary.light',
@@ -73,6 +73,7 @@ export default function ChatInput({ generateResponse, setScroll, chat, clearChat
                     </Button>
                     <Button
                         variant='outlined'
+                        type='button'
                         onClick={handleSave}
                         disabled={!chat.length > 0}
                         sx={{
